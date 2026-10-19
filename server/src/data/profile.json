@@ -1,0 +1,208 @@
+{
+  "name": "Shlok Dubey",
+  "handle": "Shlok-29",
+  "role": "AI/ML Engineer and Full Stack Developer",
+  "location": "Bhopal, India",
+  "email": "shlokdubey2903@gmail.com",
+  "tagline": "One person, three agents: building, leading, learning.",
+  "intro": "I'm an AI/ML engineer and full-stack developer in Bhopal. I ship multi-agent products for Indian users and lead a student council.",
+  "bio": [
+    "I'm a final-year B.Tech student in Computer Science (AI & ML) at IES College of Technology, Bhopal. I build AI-powered products, mostly multi-agent systems and full-stack apps aimed at Indian problems and users.",
+    "Away from the keyboard I serve as President of the Student Council (2026–27) after a term as Vice President, and I've run INFORIA, our college fest, two years in a row."
+  ],
+  "links": {
+    "github": "https://github.com/Shlok-29",
+    "linkedin": "https://www.linkedin.com/in/shlok-dubey29",
+    "leetcode": "https://leetcode.com/u/OZhLNdh8jK/",
+    "hackerrank": "https://www.hackerrank.com/profile/shlokdubey2903",
+    "hackerearth": "https://www.hackerearth.com/@shlokdubey2903/"
+  },
+  "lanes": {
+    "build": { "label": "Builder", "line": "Products, hackathons and internships." },
+    "lead": { "label": "Leader", "line": "Teams, events and communities." },
+    "learn": { "label": "Learner", "line": "Degree, simulations and certifications." }
+  },
+  "projects": [
+    {
+      "id": "chainmind",
+      "name": "ChainMind",
+      "tagline": "Autonomous multi-agent supply chain orchestration",
+      "description": "Agents that watch the supply chain, flag disruptions and automate the workflows around them. Built by team AI-vengers for the Capgemini AgentifAI Buildathon.",
+      "badge": "Top 10 grand finalist, Capgemini AgentifAI Buildathon",
+      "stack": ["React", "TypeScript", "FastAPI", "CrewAI", "Streamlit", "Machine Learning"],
+      "highlights": ["Multi-agent collaboration", "Intelligent workflow automation", "Supply chain optimisation"],
+      "tags": ["AI"],
+      "featured": true,
+      "repo": "https://github.com/Shlok-29/Chain_Mind"
+    },
+    {
+      "id": "citypulse",
+      "name": "CityPulse",
+      "tagline": "AI urban digital twin with what-if simulation",
+      "description": "A digital twin of a city zone where you can change the traffic and see what happens before it happens. Piloted on a zone in Bhopal.",
+      "stack": ["React", "Cesium", "FastAPI", "SUMO/TraCI", "PostGIS", "LLM agents"],
+      "highlights": ["What-if simulation", "Bhopal pilot zone"],
+      "tags": ["AI", "Full stack"]
+    },
+    {
+      "id": "stockpulse",
+      "name": "StockPulse",
+      "tagline": "Inventory and AI demand forecasting",
+      "description": "A multi-tenant inventory app that forecasts demand so shops reorder before they run out. Built for the HackInMotion hackathon.",
+      "stack": ["Next.js", "FastAPI"],
+      "highlights": ["Multi-tenant", "Demand forecasting"],
+      "tags": ["AI", "Full stack"],
+      "repo": "https://github.com/Shlok-29/Stock-Pulse"
+    },
+    {
+      "id": "fincash",
+      "name": "FinCash",
+      "tagline": "Financial literacy for first-time earners",
+      "description": "Teaches budgeting, investing, tax and wealth management through practical simulations, with an AI mentor to ask questions.",
+      "stack": ["React", "Node.js", "MongoDB", "FastAPI", "Gemini API"],
+      "highlights": ["AI financial mentor", "Smart budget planner", "Investment learning hub"],
+      "tags": ["AI", "Full stack"],
+      "repo": "https://github.com/Shlok-29/FinCash"
+    },
+    {
+      "id": "studyspace",
+      "name": "StudySpace",
+      "tagline": "Collaborative study platform with AI help",
+      "description": "A shared digital study room where students work together in real time with AI-assisted learning built in.",
+      "stack": ["Next.js", "PostgreSQL", "Docker", "Socket.io"],
+      "highlights": ["Real-time collaboration", "AI-assisted learning"],
+      "tags": ["AI", "Full stack"],
+      "repo": "https://github.com/Shlok-29/Studyspace"
+    },
+    {
+      "id": "questora",
+      "name": "Questora",
+      "tagline": "The weekend-first travel marketplace for India",
+      "description": "A marketplace for short weekend trips, with dashboards for vendors to list and manage their experiences.",
+      "stack": ["Next.js", "Node.js", "Express", "PostgreSQL"],
+      "highlights": ["Vendor dashboards", "Weekend-first discovery"],
+      "tags": ["Full stack"],
+      "repo": "https://github.com/Shlok-29/Questora"
+    },
+    {
+      "id": "saathichain",
+      "name": "SaathiChain",
+      "tagline": "AI-powered sustainable commerce for Indian artisans",
+      "description": "A commerce platform that helps artisans reach buyers, built for TIT SRIJAN 2026 (PS 5).",
+      "stack": [],
+      "highlights": ["Built for TIT SRIJAN 2026"],
+      "tags": ["AI", "Full stack"]
+    },
+    {
+      "id": "aether",
+      "name": "AETHER",
+      "tagline": "Your Spotify, as a 3D visual world",
+      "description": "Connects to Spotify and turns what you're listening to into a 3D music visualisation.",
+      "stack": ["Spotify API", "3D graphics"],
+      "highlights": ["Spotify integration"],
+      "tags": ["Full stack"]
+    },
+    {
+      "id": "bellora",
+      "name": "Bellora",
+      "tagline": "Wear your elegance",
+      "description": "A fashion storefront built in JavaScript.",
+      "stack": ["JavaScript"],
+      "highlights": [],
+      "tags": ["Full stack"],
+      "repo": "https://github.com/Shlok-29/Bellora"
+    }
+  ],
+  "journey": [
+    {
+      "lane": "lead",
+      "short": "Student Council",
+      "title": "President (2026–27), previously Vice President",
+      "org": "Student Council, IES College of Technology",
+      "points": ["Lead student initiatives, manage teams and organise events across academic and co-curricular activities."]
+    },
+    {
+      "lane": "lead",
+      "short": "AIESEC",
+      "title": "Junior Manager",
+      "org": "AIESEC in Bhopal",
+      "points": [
+        "Managed international exchange operations.",
+        "Coordinated outreach campaigns and supported 50+ participants.",
+        "Organised the Youth Speak Forum and earned a Letter of Excellence."
+      ]
+    },
+    {
+      "lane": "lead",
+      "short": "INFORIA",
+      "title": "Event Head, INFORIA 2K24 and 2K25",
+      "org": "College fest",
+      "points": ["Ran the fest two years in a row."]
+    },
+    {
+      "lane": "lead",
+      "short": "TEDx",
+      "title": "Anchor",
+      "org": "TEDx IES University",
+      "points": ["Volunteered across 100+ technical and cultural events."]
+    },
+    {
+      "lane": "build",
+      "short": "Bluestock",
+      "title": "SDE Intern (remote)",
+      "org": "Bluestock Fintech",
+      "points": ["Software development internship at a fintech company."]
+    },
+    {
+      "lane": "build",
+      "short": "Hackathons",
+      "title": "Hackathon builder",
+      "org": "Capgemini AgentifAI Buildathon, TIT SRIJAN 2026, HackInMotion",
+      "points": ["ChainMind reached the Top 10 grand finale at the Capgemini AgentifAI Buildathon."]
+    },
+    {
+      "lane": "learn",
+      "short": "B.Tech",
+      "title": "B.Tech, Computer Science (AI & ML)",
+      "org": "IES College of Technology, Bhopal",
+      "period": "Final year",
+      "points": []
+    },
+    {
+      "lane": "learn",
+      "short": "JPMorgan",
+      "title": "Software Engineering virtual job simulation",
+      "org": "JPMorgan Chase",
+      "points": []
+    },
+    {
+      "lane": "learn",
+      "short": "Tata GenAI",
+      "title": "GenAI-powered data analytics simulation",
+      "org": "Tata",
+      "points": []
+    },
+    {
+      "lane": "learn",
+      "short": "NPTEL",
+      "title": "Certified in Cloud Computing and IoT",
+      "org": "NPTEL",
+      "points": []
+    }
+  ],
+  "stack": {
+    "Languages": ["Python", "JavaScript", "TypeScript", "C++"],
+    "Frontend": ["React", "Next.js", "Tailwind CSS", "HTML", "CSS"],
+    "Backend": ["Node.js", "Express", "FastAPI"],
+    "Data": ["MongoDB", "PostgreSQL", "MySQL", "Prisma"],
+    "AI and ML": ["CrewAI", "Gemini API", "Scikit-Learn", "Pandas", "NumPy", "Generative AI"],
+    "Tools": ["Git", "GitHub", "Docker", "VS Code", "Socket.io"]
+  },
+  "goals": [
+    "Contribute to open source",
+    "Build production-ready AI systems",
+    "Launch an AI-based SaaS product",
+    "Reach 500+ GitHub contributions",
+    "Land a high-impact internship"
+  ]
+}
