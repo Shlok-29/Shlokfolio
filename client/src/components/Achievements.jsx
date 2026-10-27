@@ -4,9 +4,9 @@ import { TrophyIcon, StarIcon, ExternalLinkIcon } from './Icons.jsx';
 export default function Achievements({ links }) {
   const achievements = [
     {
-      title: 'Top 10 Grand Finalist — Capgemini AgentifAI Buildathon',
-      issuer: 'Capgemini',
-      date: 'National Level Buildathon',
+      title: 'Top 10 Finalist — Udbhav 2k26 National Hackathon',
+      issuer: 'Udbhav 2k26',
+      date: 'National Level Hackathon',
       desc: 'Selected in the top 10 finalists nationwide for ChainMind, an autonomous multi-agent supply chain orchestration system built with CrewAI, FastAPI, and React.',
       tag: 'AI & Multi-Agents',
       badgeColor: '#FFB627',

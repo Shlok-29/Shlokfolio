@@ -4,14 +4,14 @@ export let dbReady = false;
 
 export async function connectDB(uri) {
   if (!uri) {
-    console.warn('[db] MONGODB_URI not set. Contact form and visitor counter are disabled.');
+    console.warn('[db] MONGODB_URI not set. Using local file storage fallback.');
     return;
   }
   try {
-    await mongoose.connect(uri, { serverSelectionTimeoutMS: 5000 });
+    await mongoose.connect(uri, { serverSelectionTimeoutMS: 2000 });
     dbReady = true;
-    console.log('[db] connected');
+    console.log('[db] Connected to MongoDB');
   } catch (err) {
-    console.warn(`[db] connection failed (${err.message}). Running without database.`);
+    console.warn(`[db] MongoDB connection failed (${err.message}). Using local file storage fallback.`);
   }
 }

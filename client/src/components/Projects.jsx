@@ -113,7 +113,7 @@ lead_agent = Agent(
     tools=[InventoryPredictor, RouteOptimizer]
 )
 
-# Top 10 Grand Finalist - Capgemini AgentifAI
+# Top 10 Finalist - Udbhav 2k26 National Hackathon
 status = "SYSTEM OPERATIONAL [100% HEALTH]"`}
                       </code>
                     </pre>

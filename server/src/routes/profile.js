@@ -14,7 +14,7 @@ const router = Router();
 router.get('/', (_req, res) => {
   try {
     const target = fs.existsSync(sharedPath) ? sharedPath : localPath;
-    res.set('Cache-Control', 'public, max-age=300');
+    res.set('Cache-Control', 'no-store, no-cache, must-revalidate');
     res.json(JSON.parse(fs.readFileSync(target, 'utf8')));
   } catch {
     res.status(500).json({ error: 'Profile data is unavailable.' });

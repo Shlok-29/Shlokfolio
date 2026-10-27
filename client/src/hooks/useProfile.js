@@ -6,7 +6,7 @@ export function useProfile() {
   const [profile, setProfile] = useState(fallback);
   useEffect(() => {
     const ctrl = new AbortController();
-    fetch(`${API}/api/profile`, { signal: ctrl.signal })
+    fetch(`${API}/api/profile`, { signal: ctrl.signal, cache: 'no-cache' })
       .then((r) => (r.ok ? r.json() : Promise.reject()))
       .then(setProfile)
       .catch(() => {});

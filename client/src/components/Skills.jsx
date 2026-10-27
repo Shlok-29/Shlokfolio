@@ -71,7 +71,7 @@ export default function Skills({ stack }) {
                 <span className="bullet-icon">⚡</span>
                 <p>
                   Architecting <strong>autonomous multi-agent systems and intelligent workflows</strong> using{' '}
-                  <strong>CrewAI, Gemini API, and LLMs</strong> (e.g. Capgemini AgentifAI Top 10 Grand Finalist).
+                  <strong>CrewAI, Gemini API, and LLMs</strong> (e.g. Udbhav 2k26 National Hackathon Top 10 Finalist).
                 </p>
               </div>
 

@@ -69,7 +69,7 @@ app.get('/', (_req, res) => {
     status: 'ok',
     service: 'Shlok Dubey Portfolio API',
     uptime: Math.round(process.uptime()),
-    database: dbReady ? 'connected' : 'offline',
+    database: dbReady ? 'connected (mongodb)' : 'local-file storage fallback',
     endpoints: {
       health: '/api/health',
       profile: '/api/profile',
@@ -80,7 +80,8 @@ app.get('/', (_req, res) => {
   });
 });
 
-app.get('/api/health', (_req, res) => res.json({ ok: true, db: dbReady }));
+app.get('/api/health', (_req, res) => res.json({ ok: true, db: dbReady, storage: dbReady ? 'mongodb' : 'local-file' }));
+
 app.use('/api/profile', profileRoutes);
 app.use('/api/github', githubRoutes);
 app.use('/api/visit', visitRoutes);

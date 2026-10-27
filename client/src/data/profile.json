@@ -27,8 +27,8 @@
       "id": "chainmind",
       "name": "ChainMind",
       "tagline": "Autonomous multi-agent supply chain orchestration",
-      "description": "Agents that watch the supply chain, flag disruptions and automate the workflows around them. Built by team AI-vengers for the Capgemini AgentifAI Buildathon.",
-      "badge": "Top 10 grand finalist, Capgemini AgentifAI Buildathon",
+      "description": "Agents that watch the supply chain, flag disruptions and automate workflows around them. Built with CrewAI multi-agent orchestration, FastAPI, React, TypeScript, and Streamlit.",
+      "badge": "Top 10 Finalist, Udbhav 2k26 National Hackathon",
       "stack": ["React", "TypeScript", "FastAPI", "CrewAI", "Streamlit", "Machine Learning"],
       "highlights": ["Multi-agent collaboration", "Intelligent workflow automation", "Supply chain optimisation"],
       "tags": ["AI"],
@@ -157,8 +157,8 @@
       "lane": "build",
       "short": "Hackathons",
       "title": "Hackathon builder",
-      "org": "Capgemini AgentifAI Buildathon, TIT SRIJAN 2026, HackInMotion",
-      "points": ["ChainMind reached the Top 10 grand finale at the Capgemini AgentifAI Buildathon."]
+      "org": "Udbhav 2k26 National Hackathon, TIT SRIJAN 2026, HackInMotion",
+      "points": ["ChainMind reached the Top 10 finale at the Udbhav 2k26 National Hackathon."]
     },
     {
       "lane": "learn",
