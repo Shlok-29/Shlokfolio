@@ -8,7 +8,10 @@ export function go(id) {
   });
 }
 
-export const API = (import.meta.env.VITE_API_URL || '').trim().replace(/\/+$/, '');
+const rawApi = (import.meta.env.VITE_API_URL || '').trim().replace(/\/+$/, '');
+export const API = rawApi && !/^https?:\/\//i.test(rawApi) && !rawApi.startsWith('/')
+  ? `https://${rawApi}`
+  : rawApi;
 
 export const openProject = (id) => {
   go('work');
